@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'>
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Registration | Theraphosidae Workshop 2016 | Rio de Janeiro</title>
+<!-- Links to the CSS style sheets, separate for browser and print viewing-->
+    <link rel="stylesheet" type="text/css" href="../site.css" media="screen" title="Site Style Sheet">
+    <link rel="stylesheet" type="text/css" href="../print.css" media="print" title="Site Style Sheet Print version">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../img/favicon.ico" type="image/ico" />
+
+  </head>
+  <body>
+<!-- Top horizontal navigation bar-->
+    <div id="navtop">
+      <ul>
+        <li><a href="../index.html" class="list-item" title="Return to the home page">Home</a></li>
+        <li><a href="../program/program.html" class="list-item" title="List of Workshop Program">Workshop Program</a>
+          <ul>
+            <li><a href="../papers/papers.php" class="list-item sub-menu"title="Abstract">Abstract Submission</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="list-item" title="Registration" id="registration">Registration</a></li>
+        <li><a href="../accommodation/accommodation.html" class="list-item" title="Main Accommodation Page">Accommodation</a>
+          <ul>
+            <li><a href="../accommodation/partnerhotels.html" class="list-item sub-menu" title="Workshop Partner Hotels">Partner Hotels</a></li>
+            <li><a href="../accommodation/nonpartnerhotels.html" class="list-item sub-menu" title="Other Recommended Hotels (regular booking fees apply)">Recommended Hotels</a></li>
+            <li><a href="../accommodation/fulllist.html" class="list-item sub-menu" title="Full list of Recommended Hotels">Hotel Directory</a></li>
+          </ul>
+        </li>
+        <li><a href="../tourism/tourist.html" class="list-item" title="Things to see and Do in Rio de Janeiro">Tourism</a>
+          <ul>
+            <li><a href="../tourism/siteseeing.html" class="list-item sub-menu" title="Things To see in Rio de Janeiro">Siteseeing</a></li>
+            <li><a href="../tourism/events.html" class="list-item sub-menu" title="Things to do in Rio de Janeiro">Things to Do</a></li>
+          </ul>
+        </li>
+        <li><a href="../sitemap.html" class="list-item" title="Site map of all pages (documentation for CSC2406 requirements)">Site Map</a></li>
+      </ul>
+      <a href="../index.html" title="Return to the home-page"><img src="../img/logo.png" alt="Logo" id="logo" width="200" height="196" /></a><br />
+      <h1>17th Intenational Theraphosidae Workshop</h1>
+      <p id="subtitle">Rio di Janeiro, Brazil, March 21-25, 2016</p>
+      <br />
+    </div>
+<!--Start of main section of the page-->
+    <h2 id="page-title">2016 Workshop Registration Page</h2>
+    <div class="section even">
+      <table
+      summary="Workshop 2016 Registration rates
+Full Conference (21-25 March) costs $500; Half Conference (21-25 March; Morning sessions only) costs $450; One day Conference costs $150">
+        <tr>
+          <th>Workshop 2016 Registration rates</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>Full Conference (21-25 March)</td>
+          <td>$500</td>
+        </tr>
+        <tr class="odd">
+          <td>Half Conference (21-25 March; Morning sessions only)</td>
+            <td>$450</td>
+            </tr>
+            <tr>
+                <td>One day Conference</td>
+                <td>$150</td>
+              </tr>
+            </table>
+    </div>
+    </div>
+    <div class="section odd">
+      <h2>Register for 2016 Workshop</h2>
+      <div style="display: flex;">
+      <form action="register.php" method="POST" accept-charset='UTF-8'>
+         <label for="name">Full Name: </label><input type="text" id="name" size="40" name="Name" class="form_input"/><br/>
+         <label for="email">Contact Email: </label><input type="text" id="email" size="40" name="Email"  maxlength="254" class="form_input"/><br/>
+      <!-- email addresses have a 254 character limit -->
+          Name of Institution: <input type="text" size="40" name="Institute_Name" class="form_input" /><br/>
+        <div class="wide">Select Credit Card Type: <br/>
+          <input type="radio" name="Card Type" value="visa" checked="checked" /> Visa <br/>
+          <input type="radio" name="Card Type" value="mastercard" /> MasterCard<br/> <br/></div>
+         Credit Card Number: <input type="text" name="Card_number" size="40" maxlength="16" value="Please enter digits only (no spaces)" class="form_input"/><br/>
+          <div class="expiry wide">
+      <!-- Using select rather than text input to reduce input error -->
+          Expiry Date: <select name="expmonth" class="expiry">
+            <option value="01">Jan</option>
+            <option value="02">Feb</option>
+            <option value="03">Mar</option>
+            <option value="04">Apr</option>
+            <option value="05">May</option>
+            <option value="06">Jun</option>
+            <option value="07">Jul</option>
+            <option value="08">Aug</option>
+            <option value="09">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+          </select> <input type="text" size="4" maxlength="4" name="Expiry_Year" value="yyyy" class="expiry"/> <br/></div>
+          <input type="reset" value="Clear Form" />
+          <input type="submit" name="register_page" value="Submit Registration" />
+      </form>
+    </div>
+    </div>
+<!-- Secondary footer navigation -->
+    <div id="navfoot">
+      <a href="../index.html" title="Back to the Homepage"> Home </a>
+      <a href="../program/program.html" title="List of Program">Workshop Program</a>
+      <a name="registration" title="Current Page (registration)">Registration</a>
+      <a href="../program/accommodation.html" title="Hotels in Rio de Janeiro">Accommodation</a>
+      <a href="../tourism/tourist.html" title="Things to see and do in Rio de Janeiro">Tourism</a>
+      <a href="../sitemap.html" title="Site map of all pages (documentation for CSC2406 requirements)"> Site Map</a>
+    </div>
+  </body>
+</html>
