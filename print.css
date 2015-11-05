@@ -1,0 +1,64 @@
+body{
+  margin:  0ex 5ex 0ex 5ex;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: small;
+}
+
+h1 {
+  margin-top: 5ex;
+  font-family: DejaVu serif, serif;
+}
+
+h2 h3 {
+  font-family: DejaVu serif, serif;
+}
+/* The navigation bar is not shown or printed */
+div#navtop > ul {
+  display: none;
+}
+/* The footer is not shown or printed */
+div#navfoot {
+  display: none;
+}
+/* Images are omitted from the page to save ink */
+img{
+  display: none;
+}
+/* Unnecessary navigation links are removed */
+a.return-link {
+  display: none;
+}
+/* the div sectioning padding is kept to
+give whitespace on the printout */
+div.section{
+  padding-left: 1ex;
+  padding-right: 1ex;
+  padding-top: 1ex;
+  padding-bottom: 5ex;
+  margin-bottom: 1ex;
+  clear: both;
+}
+
+
+div img {
+  display: none;
+}
+p.odd{
+  width: 40%;
+  padding-bottom: 10ex;
+}
+
+div.even img {
+  display: none;
+  float: left;
+  text-align: middle;
+  margin-right: 2ex;
+}
+p.even{
+  width: 40%;
+  margin-left: 2ex;
+
+}
